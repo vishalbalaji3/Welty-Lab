@@ -38,7 +38,6 @@ a, a:link, a:visited {
 	margin-top: 165px;
 }
 
-
 .homewelcome {
 	color: #3C3C3C;
 	font-family: Baskerville;
@@ -82,9 +81,7 @@ img.rotatedimage {
 }
 
 .about_abt {
-	margin-top: 150px;
-	height: 31px;
-	width: 286px;
+	margin-top: 90px; 
 	color: #3C3C3C;
 	font-family: Baskerville;
 	font-size: 30px;
@@ -93,19 +90,22 @@ img.rotatedimage {
 }
 
 .about_txt {
-	margin-top: 13px;
-	height: 640px;
-	width: 535px;
 	color: #3C3C3C;
 	font-family: "Miller Text";
 	font-size: 20px;
 	line-height: 31px;
 }
 
+.about_image {
+	margin-top: 90px;
+}
+
+.aboutImageBuffer {
+	height: 600px;
+}
+
 .about_teamtitle {
 	margin-top: 97px;
-	height: 31px;
-	width: 205px;
 	color: #3C3C3C;
 	font-family: Baskerville;
 	font-size: 30px;
@@ -114,13 +114,15 @@ img.rotatedimage {
 }
 
 .about_teamlist1 {
-	margin-top: 22px;
-	height: 279px;
-	width: 535px;
 	color: #3C3C3C;
 	font-family: "Miller Text";
 	font-size: 20px;
 	line-height: 31px;
+}
+
+.about_teamlist1 a {
+	font-weight: normal;
+	text-decoration: underline;
 }
 
 .footer {
@@ -138,8 +140,11 @@ img.rotatedimage {
 	height: 300px;
 }
 
+.about-footer-buffer {
+	height: 100px;
+}
 
-
+/* Custom padding class */
 
 @media (min-width: 768px) {
     .pt-md-10,
