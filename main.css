@@ -1,0 +1,197 @@
+body {
+	background-image: url(images/bgmap.jpg);
+}
+
+a, a:link, a:visited {
+	color: #A26F1B;
+	font-family: "Miller Text";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 31px;
+}
+
+/* Navigation */
+
+.navbar .navbar-collapse {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.navcustom {
+	height: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 4px 1px rgba(0,0,0,0.03), 0 1px 6px 2px rgba(0,0,0,0.05), 0 2px 2px 0 rgba(0,0,0,0.04);
+}
+
+.navtext {
+	color: #222222;
+	font-family: "Miller Display";
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 31px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.hometext {
+	margin-top: 165px;
+}
+
+.homewelcome {
+	color: #3C3C3C;
+	font-family: Baskerville;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 68px;
+	vertical-align: bottom;
+}
+
+.homemoretext {
+	max-width: 82%;
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.hometextexpand {
+	color: #A26F1B;
+	font-family: "Miller Text";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 31px;
+}
+
+.home-image {
+	margin-top: 50px;
+}
+
+img.rotatedimage {
+   position: absolute;
+   left: 50%;
+   width: 400px;
+   height: auto;
+   margin-left: -200px; /* Half the width */
+   transform: rotate(3deg);
+   border: 20px solid white;
+   border-radius: 2px;
+   box-shadow: 3px 10px 10px 1px rgba(0,0,0,0.03), 3px 4px 16px 2px rgba(0,0,0,0.05), 3px 7px 7px 0 rgba(0,0,0,0.08);
+}
+
+.about_abt {
+	margin-top: 90px; 
+	color: #3C3C3C;
+	font-family: Baskerville;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 31px;
+}
+
+.about_txt {
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.about_image {
+	margin-top: 90px;
+}
+
+.aboutImageBuffer {
+	height: 600px;
+}
+
+.about_teamtitle {
+	margin-top: 97px;
+	color: #3C3C3C;
+	font-family: Baskerville;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 31px;
+}
+
+.about_teamlist1 {
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.about_teamlist1 a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.bioImageBuffer1 {
+	height: 500px;
+}
+
+img.rotatedimage_landscape {
+	width: 100%;
+	transform: rotate(-1deg);
+	border: 20px solid white;
+	border-radius: 2px;
+	box-shadow: 3px 10px 10px 1px rgba(0,0,0,0.03), 3px 4px 16px 2px rgba(0,0,0,0.05), 3px 7px 7px 0 rgba(0,0,0,0.08);
+}
+
+.bioImageBuffer2 {
+	height: 1000px;
+}
+
+img.rotatedimage_bio {
+	width: 90%;
+	transform: rotate(-1.5deg);
+	border: 20px solid white;
+	border-radius: 2px;
+	box-shadow: 3px 10px 10px 1px rgba(0,0,0,0.03), 3px 4px 16px 2px rgba(0,0,0,0.05), 3px 7px 7px 0 rgba(0,0,0,0.08);
+}
+
+.bio_image {
+	margin-top: 120px;
+}
+
+.footer {
+	bottom: 0;
+	width: auto;
+	left: 0;
+	right: 0;
+	height: 60px;
+	background-color: #222222;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.home-footer-buffer {
+	height: 300px;
+}
+
+.about-footer-buffer {
+	height: 100px;
+}
+
+/* Custom padding class */
+
+@media (min-width: 768px) {
+	.pt-md-10,
+	.py-md-10 {
+	  padding-top: 9rem !important;
+	}
+
+	.pr-md-10,
+	.px-md-10 {
+	  padding-right: 9rem !important;
+	}
+
+	.pb-md-10,
+	.py-md-10 {
+	  padding-bottom: 9rem !important;
+	}
+
+	.pl-md-10,
+	.px-md-10 {
+	  padding-left: 7.6rem !important;
+	}
+}
