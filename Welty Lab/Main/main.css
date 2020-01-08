@@ -2,7 +2,7 @@ body {
 	background-image: url(images/bgmap.jpg);
 }
 
-.chronology_bg {
+.no-bg {
 	background-image: none;
 	background-color: #FBFBFB; 
 }
@@ -169,6 +169,19 @@ img.rotatedimage_bio {
 	margin-right: 0px;
 }
 
+.footer-bump {
+	margin-bottom: -10px;
+	height: 51px;
+	width: 220px;
+	border-radius: 4px;
+	background-color: #222222;
+	color: #ABACAD;
+}
+
+.footer-logo {
+	width: 100%;
+}
+
 .itemHeader {
 	color: #3C3C3C;
 	font-family: "Miller Text";
@@ -207,6 +220,66 @@ img.listImage {
 
 .chronology-footer-buffer {
 	height: 150px;
+}
+
+.list-head {
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 31px;
+}
+
+.list-group a {
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 31px;
+	text-decoration: none;
+}
+
+.list-group-item.active {
+	background-color: transparent;
+	color: #3C3C3C;
+	border-color: transparent;
+}
+
+.list-group-item.active .underline {
+	border-bottom: 2px solid #A26F1B;;
+}
+
+.list-group-item .underline {
+	border-bottom: 2px solid transparent;
+}
+
+.list-group-item {
+	margin-left: 0px;
+	background-color: transparent;
+	color: #3C3C3C;
+	border-color: transparent;
+	padding: 0.7rem 0.9rem;
+}
+
+.list-group-item-action {
+	width: auto;
+}
+
+.list-content {
+	color: #3C3C3C;
+	font-family: "Miller Text";
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.footer {
+	height: auto;
+	color: #ABACAD;
+	font-family: "Miller Text";
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	line-height: 16px;
+	text-align: center;
 }
 
 /* Custom padding class */
