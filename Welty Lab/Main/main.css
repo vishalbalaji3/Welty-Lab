@@ -174,7 +174,86 @@
 		margin-top: 120px;
 	}
 
-/* Projects */ 
+/* Projects */
+
+	.has-search .form-control {
+  		padding-left: 2.333rem;
+	}
+
+	.has-search .form-control-feedback {
+		margin-left: 0.7rem;
+		margin-top: 0.7rem;
+	 	position: absolute;
+	 	z-index: 2;
+	 	display: block;
+	 	width: 1rem;
+	 	height: 1rem;
+	 	text-align: center;
+	 	pointer-events: none;
+	 	color: #aaa;
+	}
+
+	.form-control {
+		height: auto;
+		border-radius: 0px;
+	}
+
+	.card-pro {
+		margin-top: 30px;
+		border: 0px;
+	}
+
+	.card-body-pro {
+		background-color: #222222;
+	}
+
+	
+	.card-title-pro {
+		color: #FFFFFF;
+		font-family: "Miller Text";
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 31px;
+	}
+
+	.card-text-pro {
+		color: #FFFFFF;
+		font-family: "Miller Text";
+		font-size: 16px;
+		line-height: 31px;
+		font-weight: normal;
+	}
+
+	.card-link:hover .card-body-pro {
+		text-decoration: none;
+		background-color: #A26F1B;
+	}
+
+	.card-img-div {
+		height: 250px;
+		overflow: hidden;
+	}
+
+	.card-img-top {
+		border-radius: 0px;
+	}
+
+	.landscape {
+		height: 100%;
+		width: auto;
+	}
+
+	.img-center {
+		display: flex;
+		justify-content: center;
+    	align-items: center;
+	}
+
+	.img-baseline {
+		align-items: baseline;
+	}
+
+	
 
 /* Chronology */
 
