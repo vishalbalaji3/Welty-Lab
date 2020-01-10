@@ -1,3 +1,4 @@
+/* Project search */
 const searchBar = document.querySelector('#myInput')
 const list = document.querySelector('#projects')
 
